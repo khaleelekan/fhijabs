@@ -9,53 +9,53 @@ class Directory extends React.Component{
         this.state = {
         sections: [{
             title: 'premium scarfs',
-            imageUrl: '../../images/scarf.jpeg',
+            imageUrl: 'scarf.jpeg',
             id: 1,
             linkUrl: 'shop/hats'
           },
           {
             title: 'innercap',
-            imageUrl: '../../images/innercap.jpeg',
+            imageUrl: 'innercap.jpeg',
             id: 2,
             linkUrl: 'shop/jackets'
           },
           {
             title: 'vintage scarf',
-            imageUrl: '../../images/vintage-scarf.jpeg',
+            imageUrl: 'vintage-scarf.jpeg',
             id: 3,
             linkUrl: 'shop/sneakers'
           },
           {
             title: 'crease scarf',
-            imageUrl: '../../images/crease-scarf.jpeg',
+            imageUrl: 'crease-scarf.jpeg',
             size: 'large',
             id: 4,
             linkUrl: 'shop/womens'
           },
           {
             title: 'premium chiffon',
-            imageUrl: '../../images/premium-chiffon.jpeg',
+            imageUrl: 'premium-chiffon.jpeg',
             size: 'large',
             id: 5,
             linkUrl: 'shop/mens'
           },
           {
             title: 'jersey scarf',
-            imageUrl: '../../images/premium-chiffon.jpeg',
+            imageUrl: 'premium-chiffon.jpeg',
             size: 'large',
             id: 5,
             linkUrl: 'shop/mens'
           },
           {
             title: 'brooch magnet',
-            imageUrl: '../../images/premium-chiffon.jpeg',
+            imageUrl: 'premium-chiffon.jpeg',
             size: 'large',
             id: 5,
             linkUrl: 'shop/mens'
           },
           {
             title: 'no snag magnet',
-            imageUrl: '../../images/premium-chiffon.jpeg',
+            imageUrl: 'premium-chiffon.jpeg',
             size: 'large',
             id: 5,
             linkUrl: 'shop/mens'
