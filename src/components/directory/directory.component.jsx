@@ -41,21 +41,21 @@ class Directory extends React.Component{
           },
           {
             title: 'jersey scarf',
-            imageUrl: 'premium-chiffon.jpeg',
+            imageUrl: 'jersey-scarf.jpeg',
             size: 'large',
             id: 5,
             linkUrl: 'shop/mens'
           },
           {
             title: 'brooch magnet',
-            imageUrl: 'premium-chiffon.jpeg',
+            imageUrl: 'brooch-magnet.jpeg',
             size: 'large',
             id: 5,
             linkUrl: 'shop/mens'
           },
           {
             title: 'no snag magnet',
-            imageUrl: 'premium-chiffon.jpeg',
+            imageUrl: 'no-snag-magnet.jpeg',
             size: 'large',
             id: 5,
             linkUrl: 'shop/mens'
