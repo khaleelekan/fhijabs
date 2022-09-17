@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SignInSignOut from "../pages/sign-in-sign-out/sign-in-sign-out";
 import './header.styles.scss'
 
 const Header = ()=>{
@@ -11,6 +12,7 @@ const Header = ()=>{
             <div className="options">
             <Link className='option' to='/shop'>SHOP</Link>
             <Link className='option' to='/shop'>CONTACT</Link>
+            <Link to='/signin'><SignInSignOut /></Link>
             </div>  
         </div>
     )
