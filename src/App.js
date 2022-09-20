@@ -6,7 +6,7 @@ import Header from './components/header/header-component';
 
 import HomePage from './components/pages/homepage/Homepage.component';
 import ShopPage from './components/pages/shop-page/ShopPage.component';
-import SignInSignUp from './components/pages/sign-in-sign-out/sign-in-sign-up';
+import SignInSignUp from './components/pages/sign-in-sign-up/sign-in-sign-up';
 
 
 
