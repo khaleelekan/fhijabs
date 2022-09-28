@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
-import { getFirestore} from 'firebase/firestore/lite';
+import { getFirestore} from 'firebase/firestore';
 
 
 
@@ -17,7 +17,7 @@ import { getFirestore} from 'firebase/firestore/lite';
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
-const  firestore = getFirestore(app);
+export const  firestore = getFirestore(app);
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
